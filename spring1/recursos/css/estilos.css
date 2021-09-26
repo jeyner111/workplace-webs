@@ -1,65 +1,99 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url('../img/fondo.jpg');
+}
 
-}/*Imagen de fondo*/
 
+/*Imagen de fondo*/
 
-.form-registro{
+.form-registro {
     width: 400px;
     background: #24303c;
     padding: 30px;
-    margin:auto;
+    margin: auto;
     margin-top: 100px;
     border-radius: 4px;
-    font-family:Arial, Helvetica, sans-serif;
-    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
     box-shadow: 7px 13px 37px #000;
-    
-}/*Formulario*/
+}
 
-.form-registro .btn-submit-form{
+
+/*Formulario*/
+
+.form-registro .btn-submit-form {
     width: 100%;
-    background:#1f53c5 ;
+    background: #1f53c5;
     border: none;
     padding: 12px;
     color: white;
-    margin: 16px,0;
+    margin: 16px, 0;
     font-size: 16px;
+}
 
-}/*boton del formulario*/
 
-.form-registro h4{
+/*boton del formulario*/
+
+.form-registro h4 {
     font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif;
-}/* estilos del h4*/
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-.control-label{
+
+/* estilos del h4*/
+
+.control-label {
     width: 100%;
-    background:#24303c;
+    background: #24303c;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-}/*estilos del laber*/
+}
 
-.control-input{
-    color:white;
+
+/*estilos del laber*/
+
+.control-input {
+    color: white;
     border: 1px solid #1f53c5;
     width: 100%;
-    background:#24303c;
+    background: #24303c;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-  
-}/*estilos del input*/
+}
 
 
+/*estilos del input*/
+
+
+/*input valores permiticos*/
+
+.true-value,
+.true-value:focus,
+.true-value:focus-within,
+.true-value:active,
+.true-value:target {
+    border-color: #008000;
+    outline: #008000 solid 0px;
+}
+
+
+/*input valores no permiticos*/
+
+.false-value,
+.false-value:focus,
+.false-value:focus-within,
+.false-value:active {
+    border-color: #ff0000;
+    outline: #ff0000 solid 0px;
+}
