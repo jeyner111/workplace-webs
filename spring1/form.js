@@ -46,7 +46,7 @@
      }
 
  }
-
+ console.log("test");
  module.exports.checkUsername = checkUsername;
  module.exports.checkCorreo = checkCorreo;
  module.exports.checkContrasena = checkContrasena;
