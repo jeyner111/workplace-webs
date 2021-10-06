@@ -1,8 +1,11 @@
-function checkUsername(valor) {
-    
-     
-     return true;
+ function checkUsername(valor) {
+     if (!/[^a-zA-Z0-9]/.test(valor) && ((valor.length >= 4) || (valor <= 30))) {
+         return true;
+     } else {
+         return false;
+     }
  }
+
 
  function checkCorreo(valor) {
      //var valor = document.getElementById("correo").value;
